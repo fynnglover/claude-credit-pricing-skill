@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local testing
+.claude/settings.local.json
+
+# Logs
+*.log

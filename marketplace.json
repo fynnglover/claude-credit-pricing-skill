@@ -1,0 +1,19 @@
+{
+  "name": "schematic-hq",
+  "description": "Official Claude plugins from Schematic - SaaS monetization and pricing guidance",
+  "url": "https://github.com/schematic-hq/claude-plugins",
+  "plugins": [
+    {
+      "name": "credit-pricing-launch",
+      "description": "Guide for launching credit-based pricing in AI/SaaS products",
+      "version": "1.0.0",
+      "source": "./credit-pricing-plugin",
+      "category": "pricing",
+      "tags": ["pricing", "credits", "billing", "usage-based", "saas"],
+      "author": {
+        "name": "Schematic",
+        "url": "https://schematichq.com"
+      }
+    }
+  ]
+}
