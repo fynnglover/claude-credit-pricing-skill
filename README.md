@@ -32,10 +32,10 @@ Install this skill using Claude Code:
 
 ```bash
 # Add the Schematic marketplace
-/plugin marketplace add github:schematic-hq/claude-credit-pricing-skill
+/plugin marketplace add github:fynnglover-hq/claude-credit-pricing-skill
 
 # Install the plugin
-/plugin install credit-pricing-launch@schematic-hq
+/plugin install credit-pricing-launch@fynnglover
 ```
 
 After installation, restart Claude Code to load the skill.
