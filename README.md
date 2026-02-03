@@ -32,10 +32,10 @@ Install this skill using Claude Code:
 
 ```bash
 # Add the Schematic marketplace
-/plugin marketplace add github:fynnglover-hq/claude-credit-pricing-skill
+/plugin marketplace add github:schematic-hq/claude-credit-pricing-skill
 
 # Install the plugin
-/plugin install credit-pricing-launch@fynnglover
+/plugin install credit-pricing-launch@schematic-hq
 ```
 
 After installation, restart Claude Code to load the skill.
@@ -61,7 +61,7 @@ Before publishing, test the plugin locally:
 
 ```bash
 # Clone this repo
-git clone https://github.com/fynnglover/claude-credit-pricing-skill
+git clone https://github.com/schematic-hq/claude-credit-pricing-skill
 cd claude-credit-pricing-skill
 
 # Test with --plugin-dir flag
@@ -78,7 +78,7 @@ claude --plugin-dir .
    git init
    git add .
    git commit -m "Initial release: Credit-based pricing launch skill"
-   git remote add origin [email protected]:fynnglover/claude-credit-pricing-skill.git
+   git remote add origin [email protected]:schematic-hq/claude-credit-pricing-skill.git
    git push -u origin main
    ```
 
@@ -115,7 +115,7 @@ To release updates:
 Users will get updates when they run:
 ```
 /plugin marketplace update
-/plugin update credit-pricing-launch@fynnglover
+/plugin update credit-pricing-launch@schematic-hq
 ```
 
 ## GTM Use Cases
